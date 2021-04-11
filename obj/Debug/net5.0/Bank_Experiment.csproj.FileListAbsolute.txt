@@ -1,0 +1,16 @@
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\bin\Debug\net5.0\Bank_Experiment.exe
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\bin\Debug\net5.0\Bank_Experiment.deps.json
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\bin\Debug\net5.0\Bank_Experiment.runtimeconfig.json
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\bin\Debug\net5.0\Bank_Experiment.runtimeconfig.dev.json
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\bin\Debug\net5.0\Bank_Experiment.dll
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\bin\Debug\net5.0\ref\Bank_Experiment.dll
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\bin\Debug\net5.0\Bank_Experiment.pdb
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\obj\Debug\net5.0\Bank_Experiment.csprojAssemblyReference.cache
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\obj\Debug\net5.0\Bank_Experiment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\obj\Debug\net5.0\Bank_Experiment.AssemblyInfoInputs.cache
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\obj\Debug\net5.0\Bank_Experiment.AssemblyInfo.cs
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\obj\Debug\net5.0\Bank_Experiment.csproj.CoreCompileInputs.cache
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\obj\Debug\net5.0\Bank_Experiment.dll
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\obj\Debug\net5.0\ref\Bank_Experiment.dll
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\obj\Debug\net5.0\Bank_Experiment.pdb
+C:\Users\Bruno Oliveira\Documents\Projects\DIO\Projeto_1\Bank_Experiment\obj\Debug\net5.0\Bank_Experiment.genruntimeconfig.cache
