@@ -85,9 +85,13 @@ namespace Bank_Experiment
             Account createdAccount = 
             new Account(name: name, balance: balance, credit: credit, typeOfAccount: (TypeOfAccount)typeOfAccount);
 
-            accountList.Add(createdAccount);
-
-            Console.WriteLine("Sua conta foi criada com êxito!");
+            if (accountList.Find(acc => acc.Name == createdAccount.Name) == null) {
+                accountList.Add(createdAccount);
+                Console.WriteLine("Sua conta foi criada com êxito!");
+            }
+            else {
+                Console.WriteLine("Essa conta já existe. É possível ter apenas uma conta por pessoa!");
+            }
         }
         private static void Transfer()
         {
@@ -98,7 +102,7 @@ namespace Bank_Experiment
 
             if (targetAccount != null)
             {
-                Console.WriteLine("Bem-vindo de volta, {0}! Qual é o nome do proprietário da conta de destino?", targetAccount.Name);
+                Console.WriteLine("Bem-vindo(a) de volta, {0}! Qual é o nome do proprietário da conta de destino?", targetAccount.Name);
                 string destinationName = Console.ReadLine();
 
                 Account destinationAccount = accountList.Find(acc => acc.Name.Equals(destinationName));
@@ -128,7 +132,7 @@ namespace Bank_Experiment
             Account withdrawAccount = accountList.Find(acc => acc.Name.Equals(withdrawName));
 
             if (withdrawAccount != null) {
-                Console.WriteLine("Bem-vindo de volta, {0}! Qual é o valor que você deseja sacar?", withdrawAccount.Name);
+                Console.WriteLine("Bem-vindo(a) de volta, {0}! Qual é o valor que você deseja sacar?", withdrawAccount.Name);
                 double withdrawValue = double.Parse(Console.ReadLine());
                 withdrawAccount.Withdraw(withdrawValue);
             }

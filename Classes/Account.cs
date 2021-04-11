@@ -15,7 +15,7 @@ namespace Bank_Experiment
             this.Balance = balance;
             this.Credit = credit;
             this.TypeOfAccount = typeOfAccount;
-            Console.WriteLine("Eu sou uma conta criada! É um prazer tê-lo conosco, {0}!", this.Name);
+            Console.WriteLine("É um prazer ter você conosco, {0}!", this.Name);
         }
 
         public bool Withdraw(double withdrawValue)
@@ -36,6 +36,7 @@ namespace Bank_Experiment
         }
         public void Transfer(double transferValue, Account destinationAccount)
         {
+            Console.WriteLine("\n");
             if (this.Withdraw(transferValue))
             {
                 Console.WriteLine("↓");
